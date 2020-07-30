@@ -9,7 +9,9 @@ echo $sheep->name;
 echo "<br>"; // "shaun"
 $sheep->set_legs(2);
 echo $sheep->get_legs(); // 2
-echo $sheep->cold_blooded; // false
+$sheep->set_coldBlooded('false');
+echo "<br>";
+echo $sheep->get_coldBlooded(); // false
 
 // NB: Boleh juga menggunakan method get (get_name(), get_legs(), get_cold_blooded())
 
