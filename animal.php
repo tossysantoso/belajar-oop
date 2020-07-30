@@ -1,6 +1,6 @@
 <?php
 
-
+//cara membuat class
 //class animal
 class Animal{
     //properti
