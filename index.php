@@ -26,5 +26,9 @@ echo $sungokong->yell(); // "Auooo"
 //frog
 $kodok = new Frog("buduk");
 echo"<br><br>";
+$kodok->set_legs(4);
+echo "Jumlah kakinya ada ". $kodok->get_legs();
+echo"<br>";
 echo $kodok->jump() ; // "hop hop"
+
 ?>
